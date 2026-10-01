@@ -1,0 +1,121 @@
+
+.travel-blog {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr);
+    gap: 52px;
+    width: min(100% - 48px, 1092px);
+    margin: 80px auto 110px;
+    color: #29466f;
+}
+
+.popular-posts,
+.recent-posts {
+    width: auto;
+    min-width: 0;
+}
+
+.travel-blog h1 {
+    margin: 0 0 48px;
+    color: #29466f;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.popular-posts-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 26px;
+}
+
+.popular-card {
+    min-width: 0;
+}
+
+.popular-card-image {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1.48;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.popular-card h2 {
+    margin: 18px 0 10px;
+    color: #29466f;
+    font-size: 17px;
+    font-weight: 750;
+    line-height: 1.45;
+}
+
+.popular-card p {
+    width: auto;
+    margin: 0 0 20px;
+    padding: 0;
+    color: #8293aa;
+    font-size: 13px;
+    line-height: 1.8;
+}
+
+.post-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.post-img {
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-author h3 {
+    margin: 0 0 2px;
+    color: #29466f;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.post-author span,
+.recent-card-content span {
+    color: #8293aa;
+    font-size: 12px;
+}
+
+.recent-posts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.recent-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 18px;
+    min-width: 0;
+}
+
+.recent-card-content {
+    min-width: 0;
+}
+
+.recent-card h2 {
+    margin: 0 0 8px;
+    color: #29466f;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.45;
+}
+
+.recent-card > img {
+    display: block;
+    width: 68px;
+    height: 68px;
+    flex: 0 0 68px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+

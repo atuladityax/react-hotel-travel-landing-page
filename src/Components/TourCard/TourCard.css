@@ -1,0 +1,75 @@
+.tour-card {
+  flex: 1;
+  background: white;
+  border-radius: 5px;
+  border: none;
+  font-family: Arial, sans-serif;
+}
+
+.tour-card img {
+  display: block;
+  width: 100%;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.tour-info {
+  padding: 18px 0 0;
+}
+
+.tour-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tour-category {
+  color: #6415ed;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.tour-price {
+  color: #303b4d;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.tour-price small {
+  font-size: 15px;
+  color: #8190a5;
+  font-weight: 500;
+}
+
+.tour-info h2 {
+  font-size: 22px;
+  line-height: 1.5;
+  color: #263f63;
+  margin: 0 0 18px;
+}
+
+.tour-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+  color: #8291a8;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 35px;
+}
+
+.book-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background: #6415ed;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  cursor: pointer;
+}
